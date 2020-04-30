@@ -101,7 +101,7 @@
 :root {
     --color-font: #efefef;
     --color-link: #7254c9;
-    --color-link-hover: lighten(#7254c9, 25%);
+    --color-link-hover: darken(#7254c9, 25%);
     --color-img-holder: #efefef;
 }
 
@@ -120,7 +120,7 @@ body {
     font-size: 1em;
     line-height: 1.7;
     font-weight: 400;
-    color: #efefef;
+    color: var(--color-font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

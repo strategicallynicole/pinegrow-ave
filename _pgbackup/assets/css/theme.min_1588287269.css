@@ -101,8 +101,24 @@
 :root {
     --color-font: #efefef;
     --color-link: #7254c9;
-    --color-link-hover: lighten(#7254c9, 25%);
+    --color-link-hover: darken(#7254c9, 25%);
     --color-img-holder: #efefef;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url("../fonts/GlacialIndifference-Regular.woff2") format("woff2"), url("../fonts/GlacialIndifference-Regular.woff") format("woff");
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url("../fonts/GlacialIndifference-Bold.woff2") format("woff2"), url("../fonts/GlacialIndifference-Bold.woff") format("woff");
+    font-weight: bold;
+    font-display: swap;
+    font-style: normal;
 }
 
 html,
@@ -116,11 +132,11 @@ html {
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.7;
     font-weight: 400;
-    color: #efefef;
+    color: var(--color-font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -361,12 +377,11 @@ h5,
 .h5,
 h6,
 .h6 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 1.25em 0 0.75em;
     font-weight: 500;
     line-height: 1.2;
-    color: #ffffff;
-    text-transform: uppercase;
+    color: #181b31;
 }
 
 h1,
@@ -6263,7 +6278,7 @@ figure + .ld-cart-product-details {
 .tabs-nav li.active a,
 .tabs-nav li a:hover,
 .tabs-nav li a:focus {
-    color: #fffff !important;
+    color: var(--color-link-hover);
     background-color: transparent;
 }
 
