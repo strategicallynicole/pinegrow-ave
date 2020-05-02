@@ -1,20 +1,3 @@
-.grayme {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-.grayme:hover,
-.grayme:focus {
-    -webkit-filter: grayscale(0%%);
-    -moz-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    filter: grayscale(0%);
-}
-
 /* Name:        Ave - Main styles Written by: 	LiquidThemes Version:			1.6 */
 /* ---------------------------------------- [ TABLE OF CONTENTS ]
  1. BASE
@@ -31115,13 +31098,4 @@ body.search .no-results .search-form input[type=submit] {
     .page-has-frame .megamenu.megamenu-fullwidth .megamenu-container {
         width: calc( 100vw - 40px ) !important;
     }
-}
-
-.grayme {
-}
-
-grayme {
-}
-
-grayme {
 }
