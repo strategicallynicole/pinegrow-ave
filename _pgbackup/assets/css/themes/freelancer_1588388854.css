@@ -104,8 +104,10 @@ h6 {
 }
 
 .main-footer {
+    background-image: url(../../demo/bg/bg-20.png);
     background-repeat: no-repeat;
     background-color: #212121;
+    background-position: left center;
     color: #efefef;
 }
 
